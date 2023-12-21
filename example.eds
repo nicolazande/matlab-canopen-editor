@@ -1,0 +1,1571 @@
+[FileInfo]
+FileName=HE-923759-0004.eds
+Description=EDS for HDA4000CAN FS pressure transducer
+FileVersion=2
+ModificationDate=11-26-2014
+CreatedBy=TTC CANopen Designer
+EDSVersion=4.2
+
+[DeviceInfo]
+VendorName=Hydac Electronic GmbH
+VendorNumber=218
+ProductName=HDA 4748-F13-0400-S2PD-000
+ProductNumber=923759
+NrOfRXPDO=2
+NrOfTXPDO=2
+NrOfSRDO=4
+
+[1000]
+ParameterName=Device Type
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x20194
+PDOMapping=0
+
+[1001]
+ParameterName=Error Register
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[1018]
+ParameterName=Identity Object
+ObjectType=0x9
+
+[1018sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+
+[1018sub1]
+ParameterName=Vendor Id
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=218
+PDOMapping=0
+
+[1018sub2]
+ParameterName=Product Code
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=923759
+PDOMapping=0
+
+[1018sub3]
+ParameterName=Revision Number
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x00040000
+PDOMapping=0
+
+[1018sub4]
+ParameterName=Serial Number
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+PDOMapping=0
+
+[1003]
+ParameterName=Pre-defined Error Field
+ObjectType=0x8
+
+[1003sub0]
+ParameterName=Number Of Errors
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1003sub1]
+ParameterName=Standard Error Field 1
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub2]
+ParameterName=Standard Error Field 2
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub3]
+ParameterName=Standard Error Field 3
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub4]
+ParameterName=Standard Error Field 4
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub5]
+ParameterName=Standard Error Field 5
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1005]
+ParameterName=COB-ID SYNC
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80
+PDOMapping=0
+
+[1008]
+ParameterName=Manufacturer Device Name
+ObjectType=0x7
+DataType=0x9
+AccessType=const
+DefaultValue=HDA 4748-F13-0400-S2PD-000
+PDOMapping=0
+
+[1009]
+ParameterName=Manufacturer Hardware Version
+ObjectType=0x7
+DataType=0x9
+AccessType=const
+DefaultValue=01.02
+PDOMapping=0
+
+[100A]
+ParameterName=Manufacturer Software Version
+ObjectType=0x7
+DataType=0x9
+AccessType=const
+PDOMapping=0
+
+[100C]
+ParameterName=Guard Time
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[100D]
+ParameterName=Life Time Factor
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1010]
+ParameterName=Store Parameters
+ObjectType=0x8
+
+[1010sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[1010sub1]
+ParameterName=Save All Parameters
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[1011]
+ParameterName=Restore Default Parameters
+ObjectType=0x8
+
+[1011sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[1011sub1]
+ParameterName=Restore All Default Parameters
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[1014]
+ParameterName=COB-ID Emergency Message
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x86
+PDOMapping=0
+
+[1017]
+ParameterName=Producer Heartbeat Time
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=250
+PDOMapping=0
+
+[1200]
+ParameterName=Server SDO Parameter
+ObjectType=0x9
+
+[1200sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1200sub1]
+ParameterName=COB-ID Client to Server
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x606
+PDOMapping=0
+
+[1200sub2]
+ParameterName=COB-ID Server to Client
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x586
+PDOMapping=0
+
+[1300]
+ParameterName=Global Failsafe Command Parameter Dummy
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1301]
+ParameterName=SRDO1 Communication Parameter
+ObjectType=0x9
+
+[1301sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=7
+PDOMapping=0
+
+[1301sub1]
+ParameterName=Information Direction
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[1301sub2]
+ParameterName=Refresh Time Or SCT
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=25
+PDOMapping=0
+
+[1301sub3]
+ParameterName=SRVT
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=20
+PDOMapping=0
+
+[1301sub4]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=254
+PDOMapping=0
+
+[1301sub5]
+ParameterName=COB-ID 1
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x10B
+PDOMapping=0
+
+[1301sub6]
+ParameterName=COB-ID 2
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x10C
+PDOMapping=0
+
+[1301sub7]
+ParameterName=channel
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[1302]
+ParameterName=SRDO2 Communication Parameter Dummy
+ObjectType=0x9
+
+[1302sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=7
+PDOMapping=0
+
+[1302sub1]
+ParameterName=Information Direction
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1302sub2]
+ParameterName=Refresh Time Or SCT
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=25
+PDOMapping=0
+
+[1302sub3]
+ParameterName=SRVT
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=20
+PDOMapping=0
+
+[1302sub4]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=254
+PDOMapping=0
+
+[1302sub5]
+ParameterName=COB-ID 1
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000101
+PDOMapping=0
+
+[1302sub6]
+ParameterName=COB-ID 2
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000102
+PDOMapping=0
+
+[1302sub7]
+ParameterName=channel
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x2
+PDOMapping=0
+
+[1303]
+ParameterName=SRDO3 Communication Parameter Dummy
+ObjectType=0x9
+
+[1303sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=7
+PDOMapping=0
+
+[1303sub1]
+ParameterName=Information Direction
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1303sub2]
+ParameterName=Refresh Time Or SCT
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=50
+PDOMapping=0
+
+[1303sub3]
+ParameterName=SRVT
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=20
+PDOMapping=0
+
+[1303sub4]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=254
+PDOMapping=0
+
+[1303sub5]
+ParameterName=COB-ID 1
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000101
+PDOMapping=0
+
+[1303sub6]
+ParameterName=COB-ID 2
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000102
+PDOMapping=0
+
+[1303sub7]
+ParameterName=channel
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1304]
+ParameterName=SRDO3 Communication Parameter Dummy
+ObjectType=0x9
+
+[1304sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=7
+PDOMapping=0
+
+[1304sub1]
+ParameterName=Information Direction
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1304sub2]
+ParameterName=Refresh Time Or SCT
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=50
+PDOMapping=0
+
+[1304sub3]
+ParameterName=SRVT
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=20
+PDOMapping=0
+
+[1304sub4]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=254
+PDOMapping=0
+
+[1304sub5]
+ParameterName=COB-ID 1
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000101
+PDOMapping=0
+
+[1304sub6]
+ParameterName=COB-ID 2
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000102
+PDOMapping=0
+
+[1304sub7]
+ParameterName=channel
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=3
+PDOMapping=0
+
+[1381]
+ParameterName=SRDO1 Mapping Parameter
+ObjectType=0x8
+
+[1381sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=6
+PDOMapping=0
+
+[1381sub1]
+ParameterName=Mapping Object 1 Data Not Inverted
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x22000108
+PDOMapping=0
+
+[1381sub2]
+ParameterName=Mapping Object 1 Data Inverted
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x22010108
+PDOMapping=0
+
+[1381sub3]
+ParameterName=Mapping Object 2 Data Not Inverted
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x22000208
+PDOMapping=0
+
+[1381sub4]
+ParameterName=Mapping Object 2 Data Inverted
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x22010208
+PDOMapping=0
+
+[1381sub5]
+ParameterName=Mapping Object 3 Data Not Inverted
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x22000508
+PDOMapping=0
+
+[1381sub6]
+ParameterName=Mapping Object 3 Data Inverted
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x22010508
+PDOMapping=0
+
+[1382]
+ParameterName=SRDO2 Mapping Parameter Dummy
+ObjectType=0x8
+
+[1382sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=0
+PDOMapping=0
+
+[1383]
+ParameterName=SRDO3 Mapping Parameter Dummy
+ObjectType=0x8
+
+[1383sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=0
+PDOMapping=0
+
+[1384]
+ParameterName=SRDO4 Mapping Parameter Dummy
+ObjectType=0x8
+
+[1384sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=0
+PDOMapping=0
+
+[13FE]
+ParameterName=Configuration Valid
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0xa5
+PDOMapping=0
+
+[13FF]
+ParameterName=Safety Configuration Checksum
+ObjectType=0x8
+
+[13FFsub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=4
+PDOMapping=0
+
+[13FFsub1]
+ParameterName=Checksum-1
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=53370
+PDOMapping=0
+
+[13FFsub2]
+ParameterName=Checksum-2 Dummy
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0x4751
+PDOMapping=0
+
+[13FFsub3]
+ParameterName=Checksum-3 Dummy
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0x37c6
+PDOMapping=0
+
+[13FFsub4]
+ParameterName=Checksum-4 Dummy
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0x37c6
+PDOMapping=0
+
+[1400]
+ParameterName=RPDO1 Communication Parameter Dummy
+ObjectType=0x9
+
+[1400sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1400sub1]
+ParameterName=COB-ID Used By RPDO
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x8000020C
+PDOMapping=0
+
+[1400sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1401]
+ParameterName=RPDO2 Communication Parameter Dummy
+ObjectType=0x9
+
+[1401sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1401sub1]
+ParameterName=COB-ID Used By RPDO
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0x80000306
+PDOMapping=0
+
+[1401sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1600]
+ParameterName=RPDO1 Mapping Parameter Dummy
+ObjectType=0x9
+
+[1600sub0]
+ParameterName=Number Of Mapped Objects
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=0x1
+PDOMapping=0
+
+[1600sub1]
+ParameterName=mapped object.1
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x71210110
+PDOMapping=0x0
+
+[1600]
+ParameterName=RPDO1Mapping Parameter
+ObjectType=0x9
+
+[1600sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=0
+PDOMapping=0x0
+
+[1601]
+ParameterName=RPDO2 Mapping Parameter Dummy
+ObjectType=0x9
+
+[1601sub0]
+ParameterName=Number Of Mapped Objects
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=0x1
+PDOMapping=0
+
+[1601sub1]
+ParameterName=mapped object.1
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x71220110
+PDOMapping=0x0
+
+[1601]
+ParameterName=RPDO1Mapping Parameter
+ObjectType=0x9
+
+[1601sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=0
+PDOMapping=0x0
+
+[1800]
+ParameterName=TPDO1 Communication Parameter
+ObjectType=0x9
+
+[1800sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+
+[1800sub1]
+ParameterName=COB-ID Used By TPDO
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0xC0000186
+PDOMapping=0
+
+[1800sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1800sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1800sub5]
+ParameterName=Event-Timer
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1800sub4]
+ParameterName=channel
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[1801]
+ParameterName=TPDO2 Communication Parameter Dummy
+ObjectType=0x9
+
+[1801sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+
+[1801sub1]
+ParameterName=COB-ID Used By TPDO
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=0xC0000286
+PDOMapping=0
+
+[1801sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1801sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1801sub5]
+ParameterName=Event-Timer
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1801sub4]
+ParameterName=channel
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=3
+PDOMapping=0
+
+[1A00]
+ParameterName=TPDO1 Mapping Parameter
+ObjectType=0x9
+
+[1A00sub0]
+ParameterName=Number Of Mapped Objects
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=4
+PDOMapping=0
+
+[1A00sub1]
+ParameterName=Mapping Object 1
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x21010310
+PDOMapping=0
+
+[1A00sub2]
+ParameterName=Mapping Object 2
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x21020310
+PDOMapping=0
+
+[1A00sub3]
+ParameterName=Mapping Object 3
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x21030210
+PDOMapping=0
+
+[1A00sub4]
+ParameterName=Mapping Object 4
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x21030310
+PDOMapping=0
+
+[1A01]
+ParameterName=TPDO2 Mapping Parameter Dummy
+ObjectType=0x9
+
+[1A01sub0]
+ParameterName=Number Of Mapped Objects
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=0x1
+PDOMapping=0
+
+[1A01sub1]
+ParameterName=mapped object.1
+ObjectType=0x7
+DataType=0x7
+AccessType=const
+DefaultValue=0x61140120
+PDOMapping=0x0
+
+[1A01]
+ParameterName=TPDO1Mapping Parameter
+ObjectType=0x9
+
+[1A01sub0]
+ParameterName=Highest Sub-Index Supported
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=0
+PDOMapping=0x0
+
+[6110]
+ParameterName=AI Sensor Type
+ObjectType=0x8
+
+[6110sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[6110sub1]
+ParameterName=AI Sensor Type 1
+ObjectType=0x7
+DataType=0x6
+AccessType=ro
+DefaultValue=90
+PDOMapping=0
+
+[6114]
+ParameterName=AI ADC Sample Rate
+ObjectType=0x8
+
+[6114sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[6114sub1]
+ParameterName=AI ADC Sample Rate 1
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[6131]
+ParameterName=AI Physical Unit PV
+ObjectType=0x8
+
+[6131sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[6131sub1]
+ParameterName=AI Physical Unit PV 1
+ObjectType=0x7
+DataType=0x7
+AccessType=ro
+DefaultValue=0x004e0000
+PDOMapping=0
+
+[6132]
+ParameterName=AI Decimal Digits PV
+ObjectType=0x8
+
+[6132sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[6132sub1]
+ParameterName=AI Decimal Digits PV 1
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[6150]
+ParameterName=AI Status
+ObjectType=0x8
+
+[6150sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[6150sub1]
+ParameterName=AI Status 1
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[61A0]
+ParameterName=AI Filter Type
+ObjectType=0x8
+
+[61A0sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[61A0sub1]
+ParameterName=AI Filter Type 1
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[61A1]
+ParameterName=AI Filter Constant
+ObjectType=0x8
+
+[61A1sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=1
+PDOMapping=0
+
+[61A1sub1]
+ParameterName=AI Filter Constant 1
+ObjectType=0x7
+DataType=0x6
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[7100]
+ParameterName=AI Input FV
+ObjectType=0x8
+
+[7100sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[7100sub1]
+ParameterName=AI Input FV 1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+PDOMapping=0
+
+[7120]
+ParameterName=AI Input Scaling 1 FV
+ObjectType=0x8
+
+[7120sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[7120sub1]
+ParameterName=AI Input Scaling 1 FV 1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[7121]
+ParameterName=AI Input Scaling 1 PV
+ObjectType=0x8
+
+[7121sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[7121sub1]
+ParameterName=AI Input Scaling 1 PV 1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[7122]
+ParameterName=AI Input Scaling 2 FV
+ObjectType=0x8
+
+[7122sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[7122sub1]
+ParameterName=AI Input Scaling 2 FV 1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=4096
+PDOMapping=0
+
+[7123]
+ParameterName=AI Input Scaling 2 PV
+ObjectType=0x8
+
+[7123sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[7123sub1]
+ParameterName=AI Input Scaling 2 PV 1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=4000
+PDOMapping=0
+
+[7130]
+ParameterName=AI Input PV
+ObjectType=0x8
+
+[7130sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[7130sub1]
+ParameterName=AI Input PV 1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+PDOMapping=0
+
+[2001]
+ParameterName=Setting Of Node-ID
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[2002]
+ParameterName=Setting Of Baudrate
+ObjectType=0x7
+DataType=0x7
+AccessType=rw
+DefaultValue=4
+PDOMapping=0
+
+[2010]
+ParameterName=Application Information
+ObjectType=0x9
+
+[2010sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=3
+PDOMapping=0
+
+[2010sub1]
+ParameterName=Checksum
+ObjectType=0x7
+DataType=0x6
+AccessType=const
+DefaultValue=0x6cd8
+PDOMapping=0
+
+[2010sub2]
+ParameterName=Code Block Size
+ObjectType=0x7
+DataType=0x6
+AccessType=const
+DefaultValue=0x417a
+PDOMapping=0
+
+[2010sub3]
+ParameterName=Safety Cycle Time
+ObjectType=0x7
+DataType=0x6
+AccessType=const
+DefaultValue=225
+PDOMapping=0
+
+[20F0]
+ParameterName=Setting Of Node-ID
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[20F1]
+ParameterName=Setting Of Node-ID
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[20F2]
+ParameterName=Setting Of Baudrate
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=4
+PDOMapping=0
+
+[20F3]
+ParameterName=Setting Of Baudrate
+ObjectType=0x7
+DataType=0x5
+AccessType=rw
+DefaultValue=4
+PDOMapping=0
+
+[2100]
+ParameterName=Internal Usage 1
+ObjectType=0x9
+
+[2100sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=2
+PDOMapping=0
+
+[2100sub1]
+ParameterName=Usage-1
+ObjectType=0x7
+DataType=0x7
+AccessType=wo
+DefaultValue=0
+PDOMapping=0
+
+[2100sub2]
+ParameterName=Usage-2
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[2101]
+ParameterName=Internal Diagnosis 1
+ObjectType=0x8
+
+[2101sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=3
+PDOMapping=0
+
+[2101sub1]
+ParameterName=Diagnosis-1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[2101sub2]
+ParameterName=Diagnosis-2
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[2101sub3]
+ParameterName=Diagnosis-3
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[2102]
+ParameterName=Internal Diagnosis 2
+ObjectType=0x8
+
+[2102sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=3
+PDOMapping=0
+
+[2102sub1]
+ParameterName=Diagnosis-1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[2102sub2]
+ParameterName=Diagnosis-2
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[2102sub3]
+ParameterName=Diagnosis-3
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[2103]
+ParameterName=Internal Diagnosis 3
+ObjectType=0x8
+
+[2103sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=3
+PDOMapping=0
+
+[2103sub1]
+ParameterName=Diagnosis-1
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[2103sub2]
+ParameterName=Diagnosis-2
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[2103sub3]
+ParameterName=Diagnosis-3
+ObjectType=0x7
+DataType=0x3
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[2200]
+ParameterName=Device Values
+ObjectType=0x8
+
+[2200sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=5
+PDOMapping=0
+
+[2200sub1]
+ParameterName=Process Value Low Byte
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2200sub2]
+ParameterName=Process Value High Byte
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2200sub3]
+ParameterName=Field Value Low Byte
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2200sub4]
+ParameterName=Field Value High Byte
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2200sub5]
+ParameterName=Status
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2201]
+ParameterName=Device Values Inverted
+ObjectType=0x8
+
+[2201sub0]
+ParameterName=Number Of Entries
+ObjectType=0x7
+DataType=0x5
+AccessType=const
+DefaultValue=5
+PDOMapping=0
+
+[2201sub1]
+ParameterName=Process Value Low Byte Inverted
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2201sub2]
+ParameterName=Process Value High Byte Inverted
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2201sub3]
+ParameterName=Field Value Low Byte Inverted
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2201sub4]
+ParameterName=Field Value High Byte Inverted
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[2201sub5]
+ParameterName=Status Inverted
+ObjectType=0x7
+DataType=0x5
+AccessType=ro
+PDOMapping=0
+
+[50F3]
+ParameterName=Internal Usage 2
+ObjectType=0x7
+DataType=0x7
+AccessType=wo
+PDOMapping=0
+
+[5FEE]
+ParameterName=Internal Usage 3
+ObjectType=0x7
+DataType=0x7
+AccessType=wo
+PDOMapping=0
+
