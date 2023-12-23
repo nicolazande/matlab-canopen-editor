@@ -1,7 +1,4 @@
 # Matlab CANopen Editor
-Matlab CANopen EDS file editor
-
-## Overview
 This application can be used to view, edit and create CANopen EDS (Electronic Data Sheet) files directly in Matlab.
 
 ## Installation
