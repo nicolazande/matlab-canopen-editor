@@ -2,7 +2,7 @@
 This application can be used to view, edit and create CANopen EDS (Electronic Data Sheet) files directly in Matlab.
 
 ## Installation
-The application can be installed by double clicking the `CANopenEditor.mlappinstall` file in the top directory. The source code is included in the `sources` directory.
+The application can be installed in Matlab by double clicking the `CANopenEditor.mlappinstall` file in the top directory. The source code is included in the `sources` directory.
 
 ## Intial window
 ![init](https://github.com/nicolazande/matlab-canopen-editor/assets/115359494/a52df336-3dd3-4b2e-b1e4-556ed5901621)
